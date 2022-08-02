@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML basics practice</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav class="navigation-links">
+                <a href="">Belépés</a>
+                <a href="">Ingatlan feladás</a>
+                <a href="">Kontakt</a>
+                <a href="">Ügyfélszolgálat</a>
+            </nav>
+            <div class="social-icons">
+                <div class="facebook">
+                    <img src="./img/like.svg" alt="facebook icon">
+                </div>
+                <div class="insta">
+                    <img src="./img/instagram.svg" alt="insta icon">
+                </div>
+                <div class="mail">
+                    <img src="./img/mail.svg" alt="mail icon">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="features-section">
+            <article class="search-container">
+                <div class="features-icon">
+                    <img src="./img/magnifying-glass.svg" alt="">
+                </div>
+
+                <section class="feature-text">
+                    <h3>Keresés az ingatlanok között</h3>
+                    <p>Naponta frissülő ajánlatok</p>
+                    <p>Részletes keresés</p>
+                </section>
+            </article>            
+
+            <article class="registration-container">
+                <div class="features-icon">
+                    <img src="./img/statistics.svg" alt="">
+                </div>
+
+                <section class="feature-text">
+                    <h3>Regisztrálás az oldalra</h3>
+                    <p>Ingatlan feladási lehetőség</p>
+                    <p>Üzenet küldési lehetőség</p>
+                </section>
+            </article>  
+
+            <article class="ad-container">
+                    <div class="features-icon">
+                        <img src="./img/house.svg" alt="">
+                    </div>
+    
+                    <section class="feature-text">
+                        <h3>Hírdetés feladás</h3>
+                        <p>Gyors jóváhagyás</p>
+                        <p>2 napig kiemelt</p>
+                    </section>
+    
+
+            </article>
+        </section>
+
+ 
+
+
+    <section class="form container">
+            <h4>Regisztráció</h4>
+            <form action="javascript:void(0)" name="form">
+                <label for="username">Felhasználónév</label>
+                <input type="text" id="username" name="username">
+                <small class="error-username">Hibás felhasználónév!</small>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <small class="error-email">Hibás email cím</small>
+
+                <label for="password">Jelszó</label>
+                <input type="password" id="password" name="password">
+                <small class="error-password">Hibás Jelszó</small>
+
+                <label for="repassword">Jelszó újra</label>
+                <input type="password" id="re-password" name="repassword">
+                <small class="error-re-password">Hibás Jelszó</small>
+
+                <button class="submit-btn" type="submit" disabled>Küldés</button>
+
+
+            </form>
+        </section>
+
+</main>
+
+<footer>
+    <h5>2022 Minden jog fentartva</h5>
+</footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>

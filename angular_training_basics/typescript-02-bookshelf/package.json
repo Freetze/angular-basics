@@ -1,0 +1,12 @@
+{
+  "name": "02-bookshelf",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "ts": "tsc -w",
+    "interface": "node dist/userInterface.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
